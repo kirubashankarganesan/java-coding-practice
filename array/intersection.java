@@ -20,6 +20,8 @@ public class intersection {
     }
 }
 
+// 1 2 3
+
 // Set<Integer> set = new HashSet<>();
 
 // for(int i:arr1){

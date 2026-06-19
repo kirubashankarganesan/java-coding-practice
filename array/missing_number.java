@@ -17,3 +17,5 @@ public class missing_number {
         System.out.println(res);
     }
 }   
+
+// 3
