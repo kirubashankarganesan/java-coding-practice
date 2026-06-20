@@ -1,20 +1,22 @@
 package pattern.number;
 
-public class num13 {
+public class num18 {
     public static void main(String[] args) {
         int n = 5;
+        int p = 1;
+
         for (int i = 1; i <= n; i++) {
-            int p = 5;
             for (int j = 1; j <= i; j++) {
-                System.out.print(p-- +" ");
+                System.out.print(p++ +" ");
             }
             System.out.println("");
         }
+
     }
 }
 
-// 5
-// 5 4
-// 5 4 3
-// 5 4 3 2
-// 5 4 3 2 1
+// 1
+// 2 3
+// 4 5 6
+// 7 8 9 10
+// 11 12 13 14 15
