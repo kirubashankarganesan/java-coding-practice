@@ -4,7 +4,7 @@ public class stringcompress {
     public static void main(String[] args) {
         String s = "aaaaaaaaaabbbbcc";
         s += " ";
-StringBuilder sb=new StringBuilder();
+        StringBuilder sb = new StringBuilder();
         int c = 1;
         for (int i = 1; i < s.length(); i++) {
 
