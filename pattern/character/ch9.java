@@ -8,7 +8,7 @@ public class ch9 {
             for (int j = 1; j <= i; j++) {
                 System.out.print((char) p++ + " ");
             }
-            System.out.println("");
+            System.out.println();
         }
     }
 }
