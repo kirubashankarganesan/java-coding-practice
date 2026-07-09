@@ -2,7 +2,7 @@ package array;
 
 import java.util.Arrays;
 
-public class moving_sero_end {
+public class moving_zero_end {
     public static void main(String[] args) {
         int[] arr={1, 2, 0, 4, 3, 0, 5, 0}; 
         int n=arr.length;
