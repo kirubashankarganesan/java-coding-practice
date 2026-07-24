@@ -1,4 +1,4 @@
-package array;
+package array_2d;
 
 public class transpose {
     public static void main(String[] args) {
@@ -15,7 +15,7 @@ public class transpose {
         }
         for (int i = 0; i < arr.length; i++) {
             for (int j = 0; j < arr.length; j++) {
-                System.out.print(arr[i][j]+" ");
+                System.out.print(arr[i][j] + " ");
             }
             System.out.println();
         }
