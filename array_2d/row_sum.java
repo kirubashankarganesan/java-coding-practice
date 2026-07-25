@@ -12,3 +12,5 @@ public class row_sum {
         }
     }
 }
+
+// 6 15 24
