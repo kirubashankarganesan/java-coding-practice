@@ -5,9 +5,11 @@ public class swap_main_minor_element {
         int[][] arr = { { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 9 } };
         int n = arr.length;
         for (int i = 0; i < arr.length; i++) {
-            int temp = arr[i][i];
-            arr[i][i] = arr[i][n - 1 - i];
+           for (int j = 0; j < arr.length; j++) {
+             int temp = arr[i][j];
+            arr[i][j] = arr[i][n - 1 - i];
             arr[i][n - 1 - i] = temp;
+           }
         }
         for (int i = 0; i < arr.length; i++) {
             for (int j = 0; j < arr.length; j++) {
@@ -17,3 +19,11 @@ public class swap_main_minor_element {
         }
     }
 }
+
+// 3 1 2 
+// 5 6 4 
+// 9 7 8 
+
+// temp = arr[i][i];
+// arr[i][i] = arr[i][n - 1 - i];
+// arr[i][n - 1 - i] = temp;
