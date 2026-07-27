@@ -23,3 +23,5 @@ public class decimal_to_hexadecimal {
 }
 
 // 5A
+
+// System.out.println(Integer.toHexString());
