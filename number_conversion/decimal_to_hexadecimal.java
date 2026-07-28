@@ -14,7 +14,7 @@ public class decimal_to_hexadecimal {
             if (rem < 10) {
                 res = rem + res;
             } else {
-                res = (char) ('A' + rem - 10) + res;
+                res = (char) (65 + rem - 10) + res;
             }
             n /= 16;
         }
